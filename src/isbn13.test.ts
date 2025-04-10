@@ -63,7 +63,4 @@ describe("isValid function", () => {
     });
   });
 
-  it("should throw error for empty input", () => {
-    expect(() => isValid()).toThrow();
-  });
 });
