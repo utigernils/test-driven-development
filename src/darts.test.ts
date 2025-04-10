@@ -43,7 +43,7 @@ describe("possibleCheckout function", () => {
     { points: 477, expected: "Double 12" },  
     { points: 483, expected: "Double 9" },    
     { points: 461, expected: "Double 20" },   
-    { points: 500, expected: "Double 0.5" },   
+    { points: 499, expected: "Double 1" },   
   ];
 
   const impossibleCheckouts = [
